@@ -3,12 +3,12 @@ cask "tractl" do
 
   on_arm do
     url "https://github.com/tractl/tractl/releases/download/v0.0.1/traCtl_v0.0.1_darwin_arm64.dmg"
-    sha256 "a49eeaa2c59f00449d5a329ae45ee020547340cba24ba64bdaa71418106523e4"
+    sha256 "1676a1d6f8e83aa9311a6cbccec46014e62e7c85e96a28ac7eca4071c9c66436"
   end
 
   on_intel do
     url "https://github.com/tractl/tractl/releases/download/v0.0.1/traCtl_v0.0.1_darwin_amd64.dmg"
-    sha256 "c73a313177731f6ff715641720a4fbf4b582c4b2e44b479fb712b10b3944ef84"
+    sha256 "f1ee3a7fe7f9b7dae2ad4170b940162396274570adde7967dc2554a5ae3ea664"
   end
 
   name "traCtl"
