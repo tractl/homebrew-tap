@@ -2,29 +2,29 @@ class Tractl < Formula
   desc "Backend validation platform CLI"
   homepage "https://tractl.softwits.com"
   license "MIT"
-  version "0.0.3"
+  version "0.0.4"
 
   on_macos do
     on_arm do
-      url "https://github.com/tractl/tractl/releases/download/v0.0.3/tractl_darwin_arm64.tar.gz"
-      sha256 "fa82a60e6a9a1f340b6a709d51e92658518e717b27e4bb96cd765d31edf7072f"
+      url "https://github.com/tractl/tractl/releases/download/v0.0.4/tractl_darwin_arm64.tar.gz"
+      sha256 "c0aea84f8bde64df7b5587af7fad8678e2ab128ed79f4f5242ccd1ed042531a2"
     end
 
     on_intel do
-      url "https://github.com/tractl/tractl/releases/download/v0.0.3/tractl_darwin_amd64.tar.gz"
-      sha256 "2a03281f43794b7ae27d221e044e3beb9eddeaca8c410b2af45179659f087e11"
+      url "https://github.com/tractl/tractl/releases/download/v0.0.4/tractl_darwin_amd64.tar.gz"
+      sha256 "638272e449090b41115157f7a12d270dbeea2137b2fa094650000385761ab5db"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/tractl/tractl/releases/download/v0.0.3/tractl_linux_arm64.tar.gz"
-      sha256 "358ac2e602a04dcc6bf0d8bd825fbf852ae87dfb2fff2ab698bcd1d832a5fcc0"
+      url "https://github.com/tractl/tractl/releases/download/v0.0.4/tractl_linux_arm64.tar.gz"
+      sha256 "83c8983344cb27584ec238a16a66c7e507f87b3ce9e7deeefa9ac5b57fe29bd1"
     end
 
     on_intel do
-      url "https://github.com/tractl/tractl/releases/download/v0.0.3/tractl_linux_amd64.tar.gz"
-      sha256 "a33d5d14d84b65678b58a3193f6ff7c72d298302b638d21b68529c1c572544de"
+      url "https://github.com/tractl/tractl/releases/download/v0.0.4/tractl_linux_amd64.tar.gz"
+      sha256 "0dd6bc9340d63a5a805d26df60c37c7d8b2f2cc84a0659520aae82d4b2eff7fe"
     end
   end
 
